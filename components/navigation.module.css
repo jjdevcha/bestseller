@@ -1,0 +1,24 @@
+.nav {
+	padding: 10px;
+	border: 2px solid #000;
+	font-weight: 600;
+	font-size: 1.2rem;
+	border-radius: 10% 10% 10% 8%;
+	padding: 15px;
+}
+
+.ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.li {
+	border-bottom: 3px solid #000;
+	border-radius: 10%;
+	padding: 5px 0;
+}
+
+.li:hover {
+	border-bottom: gray solid 3px;
+}
