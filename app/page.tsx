@@ -5,7 +5,7 @@ export const metadata = {
 	title: "Home",
 }
 
-export const API_URL = "https://books-api.nomadcoders.workers.dev/lists"
+const API_URL = "https://books-api.nomadcoders.workers.dev/lists"
 
 async function getBookLists() {
 	const response = await fetch(API_URL)
